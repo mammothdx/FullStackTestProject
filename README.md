@@ -19,7 +19,7 @@ You may add packages as needed. Add a requirements.txt file including everything
 ## Tasks
 
 1) Clone the project into a directory
-2) Create a virtual environment and install neccesery dependecies
+2) Create a virtual environment and install neccesery dependecies (`python3 -m venv venv`)
 3) Create a webpage that allows the user to enter a single DNA sequence containing only the letter A,G,C and T to a form. Web pages should be designed using bootstrap 4.
 4) Use the BlastJob model (models.py) to create the job and run an asychronic search task (use the blast command from the Tools section). <b>The results page should not fully refresh to check the status (js based solution)!</b>
 5) A web page should present the job's results when the job if finished
