@@ -1,4 +1,4 @@
-# FullStackTestProject
+# Full Stack position test project
 
 A tiny project with a basic coding exercise. The project includes writing a simple web service using django on sqlite.
 The web page will allow the user to run a blast search of a single sequence on a given bacterial genome (in the data folder).
@@ -13,13 +13,13 @@ The following tools are required to complete the task
 django
 biopython
 ```
-You may add packages as needed.
+You may add packages as needed. Add a requirements.txt file including everything you use.
 2) docker
 
 ## Tasks
 
 1) Clone the project into a directory
-2) Create a virtual environment
+2) Create a virtual environment and install neccesery dependecies
 3) Create a webpage that allows the user to enter a single DNA sequence containing only the letter A,G,C and T to a form
 4) Use the BlastJob model (models.py) to create the job and run an asychronic search task (use the blast command from the Tools section)
 5) A web page should present the job's results when the job if finished
