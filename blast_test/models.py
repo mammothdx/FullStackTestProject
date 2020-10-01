@@ -12,4 +12,5 @@ class BlastResult(models.Model):
     send = models.IntegerField(blank=False, null=False)
     sstrand = models.CharField(max_length=5)
     evalue = models.FloatField(blank=False, null=False)
+    pident = models.FloatField(blank=False, null=False)
     sequence = models.CharField(max_length=255, blank=False, null=False)

@@ -13,6 +13,7 @@ The following tools are required to complete the task
 django
 biopython
 ```
+You may add packages as needed.
 2) docker
 
 ## Tasks
@@ -28,7 +29,7 @@ Dont forget to run `python3 manage.py migrate` before running the server
 ## Tools
 
 Running blast should be done using the `ncbi/blast` image found in ducker hub.
-The blast command looks lie this:
+The internal blast command:
 `blastn -query <query_file> -subject genome/ecoli_k12_mg1655.fasta -outfmt "6 <required parameters based on BlastResult model>"`
 
 You can read about the tabular format output 6 [here](http://www.metagenomics.wiki/tools/blast/blastn-output-format-6)
