@@ -6,7 +6,7 @@ class BlastJob(models.Model):
     status = models.CharField(max_length=10, blank=True, null=True)
 
 class BlastResult(models.Model):
-    blast_job = models.ForeignKey(BlastJob, blank=False, null=False)
+    blast_job = models.ForeignKey(BlastJob, blank=False, null=False, on_delete=models.CASCADE)
     result_no = models.IntegerField(blank=False, null=False)
     sstart = models.IntegerField(blank=False, null=False)
     send = models.IntegerField(blank=False, null=False)
