@@ -24,7 +24,7 @@ You may add packages as needed. Add a requirements.txt file including everything
 4) Use the BlastJob model (models.py) to create the job and run an asychronic search task (use the blast command from the Tools section). <b>The results page should not fully refresh to check the status (js based solution)!</b>
 5) A web page should present the job's results when the job if finished
 
-Dont forget to run `python3 manage.py migrate` before running the server
+Dont forget to run `python3 manage.py makemigrations blast_test` and `python3 manage.py migrate` before running the server
 
 ## Tools
 
